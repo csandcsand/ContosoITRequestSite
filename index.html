@@ -3,60 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <style type='text/css'>
-.AAReport {
-background-color: #snow;
-font-family:Calibri;
-color:black;
-padding-bottom: 50px;
-}
-.AAReportHeader {
-background-color: #ADCDEA;
-}
-.AAReportBody {
-}
-.AAReportH1 {
-font-weight:lighter;
-}
-.AAReportH2 {
-color: rgb(46,116,181);
-font-weight:lighter;
-padding-top: 2em;
-}
-.AAReportH3 {
-color: red;
-font-weight:lighter;
-padding-top: 0.7em;
-}
-.AAReportTable {
-border-collapse: collapse;
-}
-.AAReportTable th, .AAReportTable td {
-padding: 10px;
-border: 0;
-font-family:Calibri;
-}
-.AAReportTable th {
-background-color: whitesmoke;
-font-weight:bolder;
-}
-.AAReportTable td {
-border-bottom: 1px solid lightgray;
-}
-#AAReportTableReportInfo td {
-color: rgb(31,77,120);
-border: 0;
-padding: 5px;
-}
-.AAReportTextAlert {
-color: red;
-}
 </style>
 </head>
-<body>
-<div class="AAReport">
-<div class="AAReportHeader">&nbsp;</div>
-<div class="AAReportBody"><h1 class='AAReportH1'>AZURE AUTOMATION REPORT</h1> <table  class='AAReportTable' id='AAReportTableReportInfo'> <tr><td><b>Time Period (UTC)</b></td><td>2015-1-31 5:30:18&nbsp;&nbsp;to&nbsp;&nbsp;2015-3-7 5:30:18</td></tr> <tr><td><b>Subscription</b></td><td>Visual Studio Ultimate with MSDN</td></tr> <tr><td><b>Automation Account</b></td><td>ChrisPreview1</td></tr> <tr><td><b>Account Location</b></td><td>East US</td></tr> </table><h2 class='AAReportH2'>RUNBOOKS WITH JOBS</h2> <table class='AAReportTable'><tr> <th>Runbook Name</th> <th>Failed</th> <th>Suspended</th> <th>Stopped</th> <th>Completed</th> <th>Completed With Errors</th> <th>Queued</th> <th>Running</th> </tr> <tr><td>A-Test</td> <td align='center' class='AAReportTextAlert'> 2 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> 10 </td> <td align='center'> 30 </td> <td align='center' class='AAReportTextAlert'> 2 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> </tr> <tr><td>A-Test2</td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> 1 </td> <td align='center' class='AAReportTextAlert'> 1 </td> <td align='center'> 1 </td> <td align='center' class='AAReportTextAlert'> 2 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> </tr> <tr><td>CreateVMAndSendAlert</td> <td align='center' class='AAReportTextAlert'> 12 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> 4 </td> <td align='center'> 8 </td> <td align='center' class='AAReportTextAlert'> 6 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> </tr> <tr><td>New-AutomationReport</td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> 1 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> 1 </td> </tr> <tr><td>SetAutomationModuleActivityMetadata2</td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> 2 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> </tr> <tr><td>Test-Output</td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> 2 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> </tr> <tr><td>Test-RunbookOutput</td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> <td align='center' class='AAReportTextAlert'> 1 </td> <td align='center' class='AAReportTextAlert'> </td> <td align='center'> </td> </tr> </table><h2 class='AAReportH2'>JOBS</h2> <table class='AAReportTable'> <tr><th align='center'>Total</th> <th style='text-align:center'>Completed</th> <th style='text-align:center'>Completed With Errors</th> <th style='text-align:center'>Failed</th> <th style='text-align:center'>Running</th> <th style='text-align:center'>Stopped</th> <th style='text-align:center'>Suspended</th> </tr><tr><td style='text-align:center'>86</td> <td style='text-align:center'  >44</td> <td style='text-align:center'  >11</td> <td style='text-align:center'  >14</td> <td style='text-align:center'  >1</td> <td style='text-align:center'  >15</td> <td style='text-align:center'  >1</td> </tr></table><h3 class='AAReportH3'>COMPLETED WITH ERRORS JOBS</h3> <table class='AAReportTable'> <tr><th>Runbook Name</th><th>Job Id</th><th>Last Modified</th></tr> <tr> <td>A-Test2</td> <td>2c8ebe14-7da5-4dbd-87f1-867315bb6855</td> <td>02/01/2015 00:27:54 +00:00</td> </tr> <tr> <td>A-Test2</td> <td>621068b8-6e24-4942-a26b-3f710bb01fdf</td> <td>02/01/2015 00:35:59 +00:00</td> </tr> <tr> <td>A-Test</td> <td>6c20aa8c-b0eb-4a2b-9c2f-6c93c15ebbfa</td> <td>02/16/2015 22:11:00 +00:00</td> </tr> <tr> <td>A-Test</td> <td>5c90b127-9911-445b-a8ef-f3dee500f641</td> <td>02/18/2015 03:11:17 +00:00</td> </tr> <tr> <td>Test-RunbookOutput</td> <td>6b0c62f3-f441-4263-90c5-c074b536c207</td> <td>02/25/2015 01:14:51 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>3ad71d64-dbb9-42b0-8bfc-24c765cec80f</td> <td>03/03/2015 02:59:07 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>861342ad-be8c-45ed-9d77-59fbd0917ead</td> <td>03/03/2015 04:16:36 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>bff6c5e7-f46f-46bf-8062-86c564a9d16e</td> <td>03/03/2015 04:19:40 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>aee9dba8-7b57-4d81-8974-45158072a151</td> <td>03/03/2015 04:36:26 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>194e98ae-9426-456d-bfa1-606e6b343689</td> <td>03/03/2015 04:54:33 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>b5e36a88-8836-4576-94b2-8b5b3643f199</td> <td>03/03/2015 06:05:25 +00:00</td> </tr> </table> <h3 class='AAReportH3'>FAILED JOBS</h3> <table class='AAReportTable'> <tr><th>Runbook Name</th><th>Job Id</th><th>Last Modified</th></tr> <tr> <td>A-Test</td> <td>0a70d1e1-31d6-4fa1-9a25-a7cf0de02090</td> <td>02/16/2015 22:12:11 +00:00</td> </tr> <tr> <td>A-Test</td> <td>96cd3af0-0685-472a-9778-3ed60bb93a57</td> <td>02/25/2015 00:20:49 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>bf1ff7a3-cc4d-4162-ad1d-37d638a5dfcf</td> <td>03/03/2015 04:24:56 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>288de310-2ee3-4851-bea0-d435127bb515</td> <td>03/03/2015 04:29:50 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>1193eb8b-fe3b-4952-9b06-4b838f369720</td> <td>03/03/2015 04:56:30 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>083ff64e-f13d-4d95-9c8c-f487a91ef26b</td> <td>03/03/2015 05:05:17 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>fe201ce2-7f3d-48ad-99cc-4f93a18db065</td> <td>03/03/2015 05:09:30 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>12bdf595-74d8-48a5-8f24-5df387229e3a</td> <td>03/03/2015 05:19:17 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>fe304498-33c2-4811-af54-0bb8053d9eaa</td> <td>03/03/2015 05:34:04 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>22a573bc-23ac-4a8c-a2a2-8b3b020537d6</td> <td>03/03/2015 05:36:13 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>e1c4f374-2f3c-466e-a57c-7352b96eee9f</td> <td>03/03/2015 05:46:54 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>4f807fc3-2b71-485c-865d-31160e9f143e</td> <td>03/03/2015 05:54:54 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>cf2d0b22-fb9d-482a-a131-6a48aab23fa2</td> <td>03/03/2015 05:55:43 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>5e9c41c3-e46b-4239-a233-8ece728acc35</td> <td>03/03/2015 05:58:43 +00:00</td> </tr> </table> <h3 class='AAReportH3'>STOPPED JOBS</h3> <table class='AAReportTable'> <tr><th>Runbook Name</th><th>Job Id</th><th>Last Modified</th></tr> <tr> <td>A-Test2</td> <td>6aacc5fb-f4a5-473c-bc6b-48c3149b7782</td> <td>02/10/2015 22:46:36 +00:00</td> </tr> <tr> <td>A-Test</td> <td>4ae029e4-e682-4612-8a4d-8eae1cbb2a6a</td> <td>02/19/2015 00:50:49 +00:00</td> </tr> <tr> <td>A-Test</td> <td>36c88445-775b-488e-9b35-e2b6781e6aa3</td> <td>02/25/2015 00:20:25 +00:00</td> </tr> <tr> <td>A-Test</td> <td>386b9a74-3fde-4f18-84f9-2502c0f7524d</td> <td>02/25/2015 00:21:58 +00:00</td> </tr> <tr> <td>A-Test</td> <td>a0f8216d-a65a-4f8a-98a0-be12092ed232</td> <td>02/25/2015 00:23:46 +00:00</td> </tr> <tr> <td>A-Test</td> <td>6e31d0ae-3ff9-4e4c-b956-3dd8ccf608b6</td> <td>02/25/2015 00:24:31 +00:00</td> </tr> <tr> <td>A-Test</td> <td>b859aebe-f08b-48b8-b8f8-7fb886f3d453</td> <td>02/25/2015 00:29:56 +00:00</td> </tr> <tr> <td>A-Test</td> <td>5de62c3c-bb90-41df-84aa-6af1043ae8d0</td> <td>02/25/2015 00:31:30 +00:00</td> </tr> <tr> <td>A-Test</td> <td>b0336669-81af-4b10-8908-f11a0c9bebba</td> <td>02/25/2015 00:38:24 +00:00</td> </tr> <tr> <td>A-Test</td> <td>fc903ae9-0ce1-4666-9bd8-79960873d19b</td> <td>02/25/2015 00:40:15 +00:00</td> </tr> <tr> <td>A-Test</td> <td>e0482823-ee35-4c41-a571-533c8340de44</td> <td>02/25/2015 00:43:17 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>ddb46c93-107b-4c2d-87ae-6bbd3e50937f</td> <td>03/03/2015 02:16:38 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>0b0b7fed-f3f1-41a5-aee2-b7e92b4a4b94</td> <td>03/03/2015 02:30:25 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>9c0042e5-0d82-4a96-9e68-a06836cfb9ca</td> <td>03/03/2015 02:54:49 +00:00</td> </tr> <tr> <td>CreateVMAndSendAlert</td> <td>22726c70-1320-4851-90c7-43f2504cff73</td> <td>03/03/2015 04:46:43 +00:00</td> </tr> </table> <h3 class='AAReportH3'>SUSPENDED JOBS</h3> <table class='AAReportTable'> <tr><th>Runbook Name</th><th>Job Id</th><th>Last Modified</th></tr> <tr> <td>A-Test2</td> <td>a5c49637-bc8f-434d-867a-bddf2e126fa5</td> <td>02/08/2015 01:27:56 +00:00</td> </tr> </table><h2 class='AAReportH2'>MODIFIED RUNBOOKS</h2> <table class='AAReportTable'> <tr> <th>Runbook Name</th> <th>State</th> <th>Tags</th> <th>Published (UTC)</th> </tr> <tr><td>A-Test2</td><td>Published</td><td></td><td>03/02/2015 21:56:46</td></tr><tr><td>Checkpoint-Examples</td><td>Published</td><td></td><td>02/18/2015 22:03:32</td></tr><tr><td>CreateVMAndSendAlert</td><td>Published</td><td></td><td>03/03/2015 06:11:40</td></tr><tr><td>New-AutomationReport</td><td>Published</td><td></td><td>03/03/2015 01:34:08</td></tr><tr><td>Remove-AzureVM_RB</td><td>Published</td><td></td><td>03/02/2015 22:16:54</td></tr><tr><td>Start-AutomationChildRunbook</td><td>Published</td><td></td><td>02/24/2015 21:45:51</td></tr><tr><td>Test-RunbookOutput</td><td>Published</td><td></td><td>02/25/2015 01:13:37</td></tr><tr><td>Write-HelloWorld</td><td>Published</td><td></td><td>02/15/2015 21:42:17</td></tr> <tr><td>Monitor-AzureWebsite</td><td>New</td><td></td><td></td></tr><tr><td>Send-MailOffice365</td><td>New</td><td></td><td></td></tr> <tr><td>A-Test</td><td>Edit</td><td></td><td></td></tr><tr><td>New-AzureVM_RB</td><td>Edit</td><td></td><td></td></tr><tr><td>Start-ChildRunbookTest</td><td>Edit</td><td></td><td></td></tr><tr><td>Test-Output</td><td>Edit</td><td></td><td></td></tr> </table></div>
-</div>
-<div></div>
+<body align="center" background="AutomationLarge.png">
+<h1>Azure Automation Demo Site</h1>
+<h3>Automation Web Hook</h3>
+<form method="post" action="http://requestb.in/12cihti1">
+  <button type="submit" name="message" value="Hi from Ignite!" id="hook">Start Runbook</button>
+</form>
 </body>
 </html>
